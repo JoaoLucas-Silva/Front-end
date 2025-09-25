@@ -23,7 +23,7 @@ João Vitor Oliveira Abreu           | [jvoabreu](https://github.com/jvoabreu)
 
 Este documento apresenta as ODS a serem atendidas pela *`4 patas`*, assim como a instituição atendida.
 
-O objetivo do sistema `4 patas` é ajudar uma ONG local de cachorros, facilitando o contato entre quem deseja um cachorro e quem comanda o canil. O sistema tem como característica principal a simplicidade e facilidade para quem o necessita, esse é o principal diferencial. 
+O objetivo do sistema `4 patas` é ajudar um canil local de cachorros, facilitando o contato entre quem deseja um cachorro e quem comanda o canil. O sistema tem como característica principal a simplicidade e facilidade para quem o necessita, esse é o principal diferencial. 
 
 A ODS que o projeto contribui é a 15 - Vida Terrestre.
 
