@@ -26,9 +26,5 @@ Este documento apresenta as ODS a serem atendidas pela *`4 patas`*, assim como a
 O objetivo do sistema `4 patas` é ajudar uma ONG local de cachorros, facilitando o contato entre quem deseja um cachorro e quem comanda o canil. O sistema tem como característica principal a simplicidade e facilidade para quem o necessita, esse é o principal diferencial. 
 
 A ODS que o projeto contribui é a 15 - Vida Terrestre.
+
 <img width="126" height="124" alt="image" src="https://github.com/user-attachments/assets/d1a688ae-a47b-45eb-a9a6-2ff0f1f24f64" />
-
-
-***1.2.  Público Alvo***
-
-Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes, costureiras de qualquer faixa etária e, qualquer tipo de serviço (que envolva a costura).
