@@ -17,13 +17,17 @@ João Vitor Oliveira Abreu           | [jvoabreu](https://github.com/jvoabreu)
 
 ***1.2.  Nome do Sistema***
 
-#### $Entre Linhas$
+#### $4 patas$
 
 ***1.3.  Propósito do Sistema***
 
-Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela *`Entre Linhas`*, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.
+Este documento apresenta as ODS a serem atendidas pela *`4 patas`*, assim como a instituição atendida.
 
-O objetivo do sistema `Entre Linhas` é ajudar costureiras que trabalham na modalidade de facção, facilitando o contato entre quem obtém uma facção, entre as faccionistas, e a empresa que busca por esse serviço de costura. O sistema tem como característica principal a simplicidade e facilidade para quem o necessita, esse é o principal diferencial.
+O objetivo do sistema `4 patas` é ajudar uma ONG local de cachorros, facilitando o contato entre quem deseja um cachorro e quem comanda o canil. O sistema tem como característica principal a simplicidade e facilidade para quem o necessita, esse é o principal diferencial. 
+
+A ODS que o projeto contribui é a 15 - Vida Terrestre.
+<img width="126" height="124" alt="image" src="https://github.com/user-attachments/assets/d1a688ae-a47b-45eb-a9a6-2ff0f1f24f64" />
+
 
 ***1.2.  Público Alvo***
 
