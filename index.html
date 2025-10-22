@@ -1,116 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4 Patas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+    <title>Área de Cadastro - 4 Patas</title>
+    <link rel="stylesheet" href="/css/style-login.css">
+    <style>
 
+        .cadastro-container {
+            width: 100%;
+            max-width: 500px; 
+            background-color: transparent; 
+            border: none;
+            box-shadow: none;
+            padding: 30px; 
+            box-sizing: border-box;
+            flex-grow: 1; 
+        }
+
+        .campo-grupo select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 100%; 
+            padding: 10px 5px; 
+            border: 1px solid #000;
+            box-sizing: border-box;
+            background: #fff;
+            /* SVG da seta do select */
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>'); 
+            background-repeat: no-repeat;
+            background-position: right 15px center; 
+            background-size: 14px; 
+            font-size: 1em;
+        }
+        
+        .genero-container {
+            position: relative;
+        }
+    </style>
+</head>
 <body>
-    <header>
-        <h1>
-            <i class="material-symbols-outlined">pets</i>
-            4 Patas
-            <i class="material-symbols-outlined">pets</i>
-        </h1>
-        <nav id="n1">
-            <a href="https://www.terra.com.br/vida-e-estilo/pets/10-motivos-para-adotar-um-animal-de-estimacao,0f6d20d1f457bdda8890f76f7b0051dd5fpqj87e.html"
-                target="_blank">Motivos para adotar um cachorro</a>
-            <a href="https://portalvet.royalcanin.com.br/saude-e-nutricao/outros-assuntos/racas-mais-populares-no-brasil/"
-                target="_blank">Racas mais comuns de cachorros</a>
-        </nav>
+    
+    <header class="header-faixa">
+        4 PATAS
     </header>
 
-    <aside class="sidebar">
-        <h2>Sobre o projeto</h2>
-        <p>
-            O site <strong>4 Patas</strong> foi desenvolvido para incentivar a adoção responsável
-            de cães e promover o bem-estar animal. Aqui você encontra informações, fotos e perfis
-            de cachorros disponíveis para adoção, além de dicas sobre cuidados essenciais para
-            garantir uma vida saudável e feliz para o seu novo amigo.
-        </p>
-        <p>
-            Adotar um cão traz diversos benefícios, como:
-        <ul>
-            <li>Oferecer um lar seguro e amoroso para um animal que precisa;</li>
-            <li>Reduzir a superpopulação de animais em abrigos;</li>
-            <li>Promover saúde mental e bem-estar através da companhia e do carinho dos pets;</li>
-            <li>Incentivar a responsabilidade, empatia e cuidado com o meio ambiente.</li>
-        </ul>
-        </p>
-        <div class="nav_menu">
-            <a href="#posts">Cachorros para adoção</a>
+    <div class="cadastro-container">
+        
+        <div class="titulo">
+            Área de Cadastro
         </div>
-    </aside>
 
-    <main>
-        <div class="main_content">
-            <section class="posts">
-                <h2 class="sec_post" id="posts">Cachorros para adoção</h2>
+        <form action="#" method="post">
+            
+            <div class="campo-grupo">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
 
-                <section class="adc_dogs">
-                    <div>
-                        <article class="generic_post">
-                            <img class="img_dogs" src="/img/dogs/testdog.jpg" alt="Golden Retriever para adoção">
-                            <h3 class="post_title">Golden Retriever</h3>
-                            <p class="post_description">Cachorro filhote, macho, sem nome, 7 meses, não chora.</p>
-                        </article>
+            <div class="campo-grupo">
+                <label for="genero">Gênero</label>
+                <div class="genero-container">
+                    <select id="genero" name="genero">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                        <option value="nao-informar">Prefiro não informar</option>
+                    </select>
+                </div>
+            </div>
 
-                        <article class="generic_post">
-                            <img class="img_dogs" src="/img/dogs/beagle.avif" alt="Beagle para adoção">
-                            <h3 class="post_title">Beagle</h3>
-                            <p class="post_description">Cachorro filhote, macho, sem nome, 3 meses, chora, mas com um
-                                ursinho fica
-                                quietinho.</p>
-                        </article>
+            <div class="campo-grupo">
+                <label for="data-nascimento">Data de nascimento</label>
+                <input type="date" id="data-nascimento" name="data-nascimento" required>
+            </div>
 
-                        <article class="generic_post">
-                            <img class="img_dogs" src="/img/dogs/pit.jpg" alt="Golden Retriever para adoção">
-                            <h3 class="post_title">Pitbull</h3>
-                            <p class="post_description">Cachorro adulto, fêmea com o nome de Tamires, 2 anos, muito
-                                brincalhão e dócil.</p>
-                        </article>
+            <div class="campo-grupo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-                        <article class="generic_post">
-                            <img class="img_dogs" src="/img/dogs/pastor.jpg" alt="Golden Retriever para adoção">
-                            <h3 class="post_title">Pastor Alemão</h3>
-                            <p class="post_description">Cachorro adulto, macho com o nome de Roberto, 4 anos, super
-                                protetor, agitado e solta bastante pelo.</p>
-                        </article>
+            <div class="campo-grupo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+            </div>
 
-                        <article class="generic_post">
-                            <img class="img_dogs" src="/img/dogs/salsicha.jpg" alt="Golden Retriever para adoção">
-                            <h3 class="post_title">Salsicha</h3>
-                            <p class="post_description">Cachorro adulto, fêmea com o nome de pipoca, 3 anos, salsicha
-                                rebaixado do pelo sedoso.</p>
-                        </article>
+            <div class="campo-grupo">
+                <label for="usuario">Nome de usuário</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>
 
-                        <article class="generic_post">
-                            <img class="img_dogs" src="/img/dogs/Chow.avif" alt="Golden Retriever para adoção">
-                            <h3 class="post_title">Chow-Chow</h3>
-                            <p class="post_description">Cachorro filhote, macho, sem nome, 4 meses, não chora, bola de
-                                pelo fofo
-                                da língua roxa.</p>
-                        </article>
-                    </div>
-                </section>
-            </section>
-        </div>
-    </main>
+            <div class="campo-grupo">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
 
-    <footer>
-        <p>
-            Desenvolvido por
-            <a href="https://github.com/JoaoLucas-Silva/" target="_blank">João Lucas</a>
-            e
-            <a href="https://github.com/jvoabreu" target="_blank">João Vitor</a>.
-        </p>
+            <div class="campo-grupo">
+                <label for="confirmacao-senha">Confirmação de senha</label>
+                <input type="password" id="confirmacao-senha" name="confirmacao-senha" required>
+            </div>
+
+            <div class="botoes-container">
+                <button type="submit" onclick="window.location.href='login.html'; return false;">
+                    Confirmar cadastro
+                </button>
+            </div>
+            
+        </form>
+    </div>
+
+    <footer class="footer-faixa">
+        &copy; 2025 4 Patas - Todos os direitos reservados.
     </footer>
-</body>
 
+</body>
 </html>

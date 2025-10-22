@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - 4 Patas</title>
+    <link rel="stylesheet" href="/css/style-login.css">
+    <style>
+        
+        .login-container {
+            width: 100%;
+            max-width: 400px; 
+            background-color: transparent; 
+            padding: 30px; 
+            box-sizing: border-box;
+            flex-grow: 1; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header class="header-faixa">
+        4 PATAS
+    </header>
+
+    <div class="login-container">
+        
+        <div class="titulo">
+            Área de Login
+        </div>
+
+        <form action="#" method="post">
+    <div class="campo-grupo">
+        <label for="usuario_email">Nome de usuário ou E-mail</label>
+        <input type="text" id="usuario_email" name="usuario_email" required>
+    </div>
+
+    <div class="campo-grupo">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+    </div>
+
+    <div class="botoes-container">
+        <button type="submit" onclick="window.location.href='principal.html'; return false;">
+            Entrar
+        </button>
+    </div>
+</form>
+
+    </div>
+
+    <footer class="footer-faixa">
+        &copy; 2025 4 Patas - Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>

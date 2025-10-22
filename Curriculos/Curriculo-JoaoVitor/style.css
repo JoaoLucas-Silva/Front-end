@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3 {
+    background-color: rgb(248, 161, 0);
+}
+
+
+#tp {
+    font-style: italic;
+    font-family: 'JetBrains Mono', serif;
+    text-decoration: underline;
+}
+
+.perfil-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 830px;
+}
+
+.perfil-header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.destaque {
+    color: rgb(53, 95, 56);
+}
+
+a [href] {
+    font-style: inherit;
+    color: rgb(42, 65, 95);
+}
+
+.center {
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+}
+
+.info-contato ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.material-icons-outlined {
+    font-size: 20px;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
