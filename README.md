@@ -2,7 +2,7 @@
 Este repositório conta com o projeto que será desenvolvido na matéria de Programação web Front-end.
 
 
-# Projeto Disciplina: Requisitos de Software
+# Projeto Disciplina: Desenvolvimento Web Front-End
 
 Olá! Este repositório faz parte do projeto da disciplina de Programação web Front-end - Campus Cornélio Procópio.
 
