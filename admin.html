@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Patas - Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    
+    <link rel="stylesheet" href="./css/style-principal.css">
+    <link rel="stylesheet" href="./css/style-login.css">
+    
+    <link rel="stylesheet" href="./css/style-admin.css">
+</head>
+
+<body class="admin-body">
+    <header>
+        <h1>
+            <i class="material-symbols-outlined">pets</i>
+            4 Patas - Admin
+            <i class="material-symbols-outlined">pets</i>
+        </h1>
+        <nav id="n1">
+            <a href="principal.html">Voltar para Home</a>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <h2>Painel Admin</h2>
+        <p>Gerencie os usuários cadastrados na plataforma.</p>
+        <div class="nav_menu">
+            <a href="#" onclick="limparTudo()">Excluir Todos os Dados</a>
+        </div>
+    </aside>
+
+    <main>
+        <div class="admin-content">
+            <h2 class="admin-titulo">Cadastro de Usuários</h2>
+            
+            <form id="form-admin">
+                <div class="campo-grupo">
+                    <label for="nome">Nome do Usuário</label>
+                    <input type="text" id="nome" required placeholder="Digite o nome">
+                </div>
+                
+                <div class="campo-grupo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required placeholder="Digite o e-mail">
+                </div>
+
+                <div class="botoes-container">
+                    <button type="button" onclick="limparFormulario()" class="btn-limpar">Limpar</button>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+
+            <hr class="divisoria">
+
+            <h2 class="admin-titulo">Lista de Cadastrados</h2>
+            
+            <div class="search-box">
+                <div class="campo-grupo">
+                    <label for="pesquisa">Pesquisar usuário (Nome ou E-mail):</label>
+                    <input type="text" id="pesquisa" onkeyup="pesquisarUsuario()" placeholder="Digite para filtrar...">
+                </div>
+            </div>
+
+            <ul id="lista-usuarios">
+                </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 4 Patas - Módulo Administrativo</p>
+    </footer>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

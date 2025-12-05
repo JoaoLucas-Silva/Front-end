@@ -228,3 +228,12 @@ footer a:hover {
         align-items: center;
     }
 }
+
+/* Link para área administrativa */
+.link-admin {
+    font-weight: bold;
+    color: #4a2e1f;
+}
+.link-admin:hover {
+    color: #d97742;
+}
